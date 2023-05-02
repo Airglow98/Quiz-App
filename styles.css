@@ -73,6 +73,7 @@ position: relative;
    
 }
 
+
 .musik-tag {
     background-color: rgb(242, 239, 174);
     align-self: flex-start;
@@ -171,35 +172,7 @@ position: relative;
     margin: 15px;
 }
 
-.nav {
-    color: rgb(162, 238, 172);
-    border-top:  inset 5px rgb(39, 123, 7);
-    background-color: rgb(39, 139, 61);
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    position: fixed;
-    bottom: 0;
-    margin: auto;
-}
 
-.Home {
-   
-  background-color: rgb(185, 245, 94);
-  border: none;
-}
- 
-.Favoriten {
-  
-    background-color: rgba(185, 245, 94, 0.471);
-    border: none;
-}
-
-.Profil {
-   
-    background-color: rgba(148, 240, 11, 0.136);
-    border: none;
-}
 
 .Musikfrage  .Add-Favoriten {
     background-color: rgb(231, 152, 152);
@@ -304,3 +277,74 @@ li {
     background-color: rgb(209, 240, 184);
   
 }
+
+
+
+.nav {
+    color: rgb(162, 238, 172);
+    border-top:  inset 5px rgb(39, 123, 7);
+    background-color: rgb(39, 139, 61);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+}
+
+.Home {
+   
+    background-color: rgb(185, 245, 94);
+    border: none;
+    
+   
+  }
+   
+  .Favoriten {
+    
+      background-color: rgba(185, 245, 94, 0.471);
+      border: none;
+   
+  }
+  
+  .Profil {
+     
+      background-color: rgba(148, 240, 11, 0.136);
+      border: none;
+      flex-grow: 1;
+  }
+
+  .profil-body {
+position: relative;
+
+  }
+
+  .label-name {
+    position: absolute;
+    top: 150%;
+    right: 30%;
+    border: none;
+  }
+
+.label-biografie {
+    position: absolute;
+    top: 350%;
+    left: 20%;
+    border: none;
+    width: 60%;
+    height: 100%;
+  }
+
+  .buttons-info {
+    display: flex;
+   justify-content: space-around;
+  }
+
+  .created-questions {
+    
+
+  }
+
+  .Bookmarks {
+   
+  }
