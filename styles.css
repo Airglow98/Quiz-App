@@ -1,3 +1,6 @@
+* { 
+    box-sizing: border-box;
+}
 html { 
     background-color: rgb(197, 243, 175);
 }
@@ -13,6 +16,8 @@ h1 {
     align-items: center;
     position: fixed;
     top: 0;
+    z-index: 1;
+    margin: auto;
 
 }
 
@@ -35,6 +40,7 @@ flex-direction: column;
 align-items: center;
 margin: 5% 10%;
 padding-top: 2%;
+position: relative;
 
 
 }
@@ -47,6 +53,7 @@ padding-top: 2%;
     border: inset 8px rgb(148, 145, 10);
     background-color:rgb(252, 230, 108);
     margin: 15% 5% 5% 5%;
+
 }
 
 .Musikfrage {
@@ -57,11 +64,19 @@ padding-top: 2%;
     align-items: center;
     margin: 5% 10%;
     padding-top: 2%;
+    position: relative;
    
+}
+
+.musik-tag {
+    background-color: rgb(242, 239, 174);
+ display: flex;
+ align-self: flex-start;
 }
 
 .Musikbutton {
     margin: 15px;
+    
 }
 
 .Geschichte-h2 {
@@ -78,6 +93,7 @@ padding-top: 2%;
     align-items: center;
     margin: 5% 10%;
     padding-top: 2%;
+    position: relative;
    
 }
 
@@ -98,6 +114,7 @@ padding-top: 2%;
     align-items: center;
     margin: 5% 10%;
     padding-top: 2%;
+    position: relative;
    
 }
 .Geografiebutton {
@@ -118,6 +135,7 @@ padding-top: 2%;
     align-items: center;
     margin: 5% 10%;
     padding-top: 2%;
+    position: relative;
    
 }
 
@@ -140,6 +158,7 @@ padding-top: 2%;
     align-items: center;
     margin: 5% 10%;
     padding-top: 2%;
+    position: relative;
    
 }
 
@@ -147,8 +166,128 @@ padding-top: 2%;
     margin: 15px;
 }
 
-footer {
+.nav {
+    color: rgb(162, 238, 172);
+    border:  inset 5px rgb(39, 123, 7);
+    background-color: rgb(39, 139, 61);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     position: fixed;
+    bottom: 0;
+}
+
+.Home {
+    flex-grow: 1;
+  background-color: rgb(185, 245, 94);
+  border: none;
+}
+ 
+.Favoriten {
+    flex-grow: 1;
+    background-color: rgba(185, 245, 94, 0.471);
+    border: none;
+}
+
+.Profil {
+    flex-grow: 1;
+    background-color: rgba(148, 240, 11, 0.136);
+    border: none;
+}
+
+.Musikfrage  .Add-Favoriten {
+    background-color: rgb(231, 152, 152);
+    border: none;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform: translate(40px, -30px);
+}
+
+.Geschichtsfrage  .Add-Favoriten {
+    background-color: rgb(231, 152, 152);
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(40px, -30px);
+}
+
+.Geografiefrage  .Add-Favoriten {
+    background-color: rgb(231, 152, 152);
+    border: none;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform: translate(40px, -30px);
+}
+
+.Klatschfrage  .Add-Favoriten {
+    background-color: rgb(231, 152, 152);
+    border: none;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform: translate(40px, -30px);
+}
+
+.Zufallfrage .Add-Favoriten {
+    background-color: rgb(231, 152, 152);
+    border: none;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform: translate(40px, -30px);
+}
+
+.Biologiefrage  .Add-Favoriten {
+    background-color: rgb(231, 152, 152);
+    border: none;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform: translate(40px, -30px);
+}
+
+button:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+ul {
+    list-style: none;
+   
+    
+}
+
+li {
+    border: 2px solid ;
+    border-radius: 20%;
+    padding: 2px 5px;
 }
 
 
+
+.geschichte-tag {
+    background-color: rgb(165, 245, 220);
+  
+}
+
+.geografie-tag {
+    background-color: rgb(240, 217, 157);
+  
+}
+
+.klatsch-tag {
+    background-color: rgb(238, 184, 240);
+  
+}
+
+.zufalls-tag {
+    background-color: rgb(247, 175, 175);
+  
+}
+
+.biologie-tag {
+    background-color: rgb(209, 240, 184);
+  
+}
