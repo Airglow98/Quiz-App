@@ -6,7 +6,7 @@ html {
 }
 h1 {
     color: rgb(162, 238, 172);
-    border:  inset 5px rgb(39, 123, 7);
+    border-bottom:  inset 5px rgb(39, 123, 7);
     background-color: rgb(39, 139, 61);
     text-align: center;
     width: 100%;
@@ -19,6 +19,11 @@ h1 {
     z-index: 1;
     margin: auto;
 
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
 }
 
 h2, p { 
@@ -70,8 +75,8 @@ position: relative;
 
 .musik-tag {
     background-color: rgb(242, 239, 174);
- display: flex;
- align-self: flex-start;
+    align-self: flex-start;
+
 }
 
 .Musikbutton {
@@ -168,29 +173,30 @@ position: relative;
 
 .nav {
     color: rgb(162, 238, 172);
-    border:  inset 5px rgb(39, 123, 7);
+    border-top:  inset 5px rgb(39, 123, 7);
     background-color: rgb(39, 139, 61);
     width: 100%;
     display: flex;
     justify-content: space-around;
     position: fixed;
     bottom: 0;
+    margin: auto;
 }
 
 .Home {
-    flex-grow: 1;
+   
   background-color: rgb(185, 245, 94);
   border: none;
 }
  
 .Favoriten {
-    flex-grow: 1;
+  
     background-color: rgba(185, 245, 94, 0.471);
     border: none;
 }
 
 .Profil {
-    flex-grow: 1;
+   
     background-color: rgba(148, 240, 11, 0.136);
     border: none;
 }
@@ -249,8 +255,14 @@ position: relative;
     transform: translate(40px, -30px);
 }
 
+footer button:hover {
+    box-shadow: 5px 5px 5px 5px black;
+    background-color: rgb(3, 82, 15);
+    transition: 0,9s; /*?*/
+}
+
 button:hover {
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px 5px black;
 }
 
 ul {
@@ -263,6 +275,7 @@ li {
     border: 2px solid ;
     border-radius: 20%;
     padding: 2px 5px;
+
 }
 
 
