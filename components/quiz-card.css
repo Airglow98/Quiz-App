@@ -20,6 +20,13 @@
 }
 
 
+.quiz-card__musik-tag {
+    background-color: rgb(242, 239, 174);
+  margin: 5px;
+
+}
+
+
 .history-card {
     border: groove 4px rgb(27, 158, 125);
     background-color: aqua;
@@ -39,6 +46,11 @@
     position: absolute;
     top: 0;
     right: 0;
+  
+}
+
+.quiz-card__history-tag {
+    background-color: rgb(165, 245, 220);
   
 }
 
@@ -63,6 +75,12 @@
 
 }
 
+.quiz-card__geography-tag {
+    background-color: rgb(240, 217, 157);
+  
+}
+
+
 .gossip-card {
     border: groove 4px rgb(199, 28, 205);
     background-color:  rgb(246, 159, 237);
@@ -83,6 +101,11 @@
     top: 0;
     right: 0;
  
+}
+
+.quiz-card__gossip-tag {
+    background-color: rgb(238, 184, 240);
+  
 }
 
 
@@ -107,6 +130,13 @@
   
 }
 
+
+.quiz-card__random-tag {
+    background-color: rgb(247, 175, 175);
+  
+}
+
+
 .biology-card {
     border: groove 4px rgb(36, 137, 36);
     background-color: rgb(133, 240, 133);
@@ -129,9 +159,24 @@
       
     }
 
-    .quiz-card__answerbutton {
-        margin: 15px;
-        
-    }
+.quiz-card__biology-tag {
+    background-color: rgb(209, 240, 184);
+  
+}
+
+
+.quiz-card__tag {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 5%;
+}
+
+.quiz-card__answerbutton {
+    margin: 15px;
     
+}
+
+
+  
 

@@ -2,64 +2,7 @@
 
 @import "./components/quiz-card.css";
 @import "./components/quiz-card-headers.css";
-
-
-
-
-
-.quiz-card__musik-tag {
-    background-color: rgb(242, 239, 174);
-  margin: 5px;
-
-}
-
-
-
-.quiz-card__tag {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    padding-left: 5%;
-}
-
-
-
-
-footer button:hover {
-    box-shadow: 5px 5px 5px 5px #000000;
-    background-color: rgb(3, 82, 15);
-    transition: 0,9s; /*?*/
-}
-
-button:hover {
-    box-shadow: 5px 5px 5px 5px #000000;
-}
-
-.quiz-card__history-tag {
-    background-color: rgb(165, 245, 220);
-  
-}
-
-.quiz-card__geography-tag {
-    background-color: rgb(240, 217, 157);
-  
-}
-
-.quiz-card__gossip-tag {
-    background-color: rgb(238, 184, 240);
-  
-}
-
-.zufalls-tag {
-    background-color: rgb(247, 175, 175);
-  
-}
-
-.biologie-tag {
-    background-color: rgb(209, 240, 184);
-  
-}
-
+@import "./components/footer.css";
 
 
 .nav {
@@ -67,38 +10,61 @@ button:hover {
     border-top:  inset 5px #277b07;
     background-color: #278b3d;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
     position: fixed;
     bottom: 0;
-    margin: auto;
+}
+
+
+.footer-nav {
+    display: flex;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+.footer-nav__symbol {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border: black solid;
+  border-radius: 0;
+}
+
+.footer-nav__symbol a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+ 
+
 }
 
 .Home {
-   
-    background-color: rgb(185, 245, 94);
+  background-color: rgb(185, 245, 94);
     border: none;
-    
-   
   }
-
-
 
   .Favoriten {
     
       background-color: rgba(185, 245, 94, 0.471);
       border: none;
-   
   }
-  
+
   .Profil {
      
       background-color: rgba(148, 240, 11, 0.136);
       border: none;
-      flex-grow: 1;
   }
 
-  .profil-body {
+
+
+
+
+
+/*   .profil-body {
 position: relative;
 
   }
@@ -123,4 +89,4 @@ position: relative;
     display: flex;
    justify-content: space-around;
   }
-
+ */
