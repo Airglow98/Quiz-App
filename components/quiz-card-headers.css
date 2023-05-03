@@ -1,0 +1,43 @@
+
+.Musik-h2 {
+    border: inset 8px rgb(148, 145, 10);
+    background-color:rgb(252, 230, 108);
+    margin: 15% 5% 5% 5%;
+
+}
+
+
+.Geschichte-h2 {
+    border: inset 8px rgb(27, 158, 125);
+    background-color: aqua;
+    margin: 15% 5% 5% 5%;
+}
+
+.Geografie-h2 {
+    border: inset 8px rgb(196, 115, 39);
+    background-color:  rgb(242, 176, 106);
+    margin: 15% 5% 5% 5%;
+}
+
+.Klatsch-h2 {
+    border: inset 8px rgb(199, 28, 205);
+    background-color:  rgb(246, 159, 237);
+    margin: 15% 5% 5% 5%;
+}
+
+.Zufall-h2 {
+    border: inset 8px rgb(210, 18, 30);
+    background-color:  rgb(249, 136, 149);
+    margin: 15% 5% 5% 5%;
+
+}
+
+
+.Bio-h2{
+    border: inset 8px rgb(36, 137, 36);
+    background-color: rgb(133, 240, 133);
+    margin: 15% 5% 5% 5%;
+}
+
+
+

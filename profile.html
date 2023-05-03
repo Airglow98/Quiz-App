@@ -1,27 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Quizzen-mit-Wizzen</title>
-   
-  
-</head>
+  </head>
 
-<body>
-
+  <body class="profil-body">
     <h1>Quizzen mit Wizzen</h1>
-<form action="Name">
-    <label for="name"></label> <input type="text" id="name">
-</form>
-</body>
-<footer class="nav" aria-labelledby="navigation"> 
-    <a href="index.html" class="navlink"><button class="Home" aria-label="Homebutton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="3em" width="3em"><path d="M19.07 4.93C17.22 3 14.66 1.96 12 2c-2.66-.04-5.21 1-7.06 2.93C3 6.78 1.96 9.34 2 12c-.04 2.66 1 5.21 2.93 7.06C6.78 21 9.34 22.04 12 22c2.66.04 5.21-1 7.06-2.93C21 17.22 22.04 14.66 22 12c.04-2.66-1-5.22-2.93-7.07M17 12v6h-3.5v-5h-3v5H7v-6H5l7-7 7.5 7H17Z"/></svg></button></a>
-    
-    <a href="bookmarks.html" class="navlink"><button class="Favoriten" aria-label="Favoritenbutton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="3em" width="3em"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m7 14 .72-.66C15.3 14 17 12.46 17 10.57c0-1.54-1.21-2.75-2.75-2.75-.87 0-1.7.41-2.25 1.05a3.007 3.007 0 0 0-2.25-1.05C8.21 7.82 7 9.03 7 10.57c0 1.89 1.7 3.43 4.28 5.77L12 17Z"/></svg></button></a>
-    
-    <a href="profile.html" class="navlink"><button class="Profil" aria-label="Profilbutton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="3em" width="3em"><path d="M11.5,14C15.64,14 19,15.57 19,17.5V20H4V17.5C4,15.57 7.36,14 11.5,14M18,17.5C18,16.12 15.09,15 11.5,15C7.91,15 5,16.12 5,17.5V19H18V17.5M11.5,5C13.43,5 15,6.57 15,8.5C15,10.43 13.43,12 11.5,12C9.57,12 8,10.43 8,8.5C8,6.57 9.57,5 11.5,5M11.5,6C10.12,6 9,7.12 9,8.5C9,9.88 10.12,11 11.5,11C12.88,11 14,9.88 14,8.5C14,7.12 12.88,6 11.5,6Z" /></svg></button></a>
- </footer>
- </html>
+    <br /><br /><br /><br /><br /><br />
+    <form action="Name">
+      <label for="name"></label
+      ><input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Max Mustermann"
+        class="label-name"
+      />
+      <label for="biografie"></label>
+      <input
+        type="text"
+        id="biografie"
+        name="biografie"
+        placeholder="Ich fahre gern Fahrrad und spiele Quiz"
+        class="label-biografie"
+      />
+    </form>
+
+    <div class="buttons-info">
+      <button class="created-questions">Created Questions</button>
+      <button class="Bookmarks">Bookmarks</button>
+    </div>
+  </body>
+  <footer class="nav" aria-labelledby="navigation">
+    <a href="index.html" class="navlink"
+      ><button class="Home" aria-label="Homebutton">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          height="3em"
+          width="3em"
+        >
+          <path
+            d="M19.07 4.93C17.22 3 14.66 1.96 12 2c-2.66-.04-5.21 1-7.06 2.93C3 6.78 1.96 9.34 2 12c-.04 2.66 1 5.21 2.93 7.06C6.78 21 9.34 22.04 12 22c2.66.04 5.21-1 7.06-2.93C21 17.22 22.04 14.66 22 12c.04-2.66-1-5.22-2.93-7.07M17 12v6h-3.5v-5h-3v5H7v-6H5l7-7 7.5 7H17Z"
+          />
+        </svg></button
+    ></a>
+
+    <a href="bookmarks.html" class="navlink"
+      ><button class="Favoriten" aria-label="Favoritenbutton">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          height="3em"
+          width="3em"
+        >
+          <path
+            d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m7 14 .72-.66C15.3 14 17 12.46 17 10.57c0-1.54-1.21-2.75-2.75-2.75-.87 0-1.7.41-2.25 1.05a3.007 3.007 0 0 0-2.25-1.05C8.21 7.82 7 9.03 7 10.57c0 1.89 1.7 3.43 4.28 5.77L12 17Z"
+          />
+        </svg></button
+    ></a>
+
+    <a href="profile.html" class="navlink"
+      ><button class="Profil" aria-label="Profilbutton">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          height="3em"
+          width="3em"
+        >
+          <path
+            d="M11.5,14C15.64,14 19,15.57 19,17.5V20H4V17.5C4,15.57 7.36,14 11.5,14M18,17.5C18,16.12 15.09,15 11.5,15C7.91,15 5,16.12 5,17.5V19H18V17.5M11.5,5C13.43,5 15,6.57 15,8.5C15,10.43 13.43,12 11.5,12C9.57,12 8,10.43 8,8.5C8,6.57 9.57,5 11.5,5M11.5,6C10.12,6 9,7.12 9,8.5C9,9.88 10.12,11 11.5,11C12.88,11 14,9.88 14,8.5C14,7.12 12.88,6 11.5,6Z"
+          />
+        </svg></button
+    ></a>
+  </footer>
+</html>
