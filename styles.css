@@ -76,13 +76,20 @@ position: relative;
 
 .musik-tag {
     background-color: rgb(242, 239, 174);
-    align-self: flex-start;
+  margin: 5px;
 
 }
 
 .Musikbutton {
     margin: 15px;
     
+}
+
+.musik-liste {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 5%;
 }
 
 .Geschichte-h2 {
@@ -175,7 +182,6 @@ position: relative;
 
 
 .Musikfrage  .Add-Favoriten {
-    background-color: rgb(231, 152, 152);
     border: none;
     position:absolute;
     top: 0;
@@ -184,7 +190,7 @@ position: relative;
 }
 
 .Geschichtsfrage  .Add-Favoriten {
-    background-color: rgb(231, 152, 152);
+   
     border: none;
     position: absolute;
     top: 0;
@@ -193,7 +199,7 @@ position: relative;
 }
 
 .Geografiefrage  .Add-Favoriten {
-    background-color: rgb(231, 152, 152);
+  
     border: none;
     position:absolute;
     top: 0;
@@ -202,7 +208,7 @@ position: relative;
 }
 
 .Klatschfrage  .Add-Favoriten {
-    background-color: rgb(231, 152, 152);
+   
     border: none;
     position:absolute;
     top: 0;
@@ -211,7 +217,7 @@ position: relative;
 }
 
 .Zufallfrage .Add-Favoriten {
-    background-color: rgb(231, 152, 152);
+   
     border: none;
     position:absolute;
     top: 0;
@@ -220,7 +226,7 @@ position: relative;
 }
 
 .Biologiefrage  .Add-Favoriten {
-    background-color: rgb(231, 152, 152);
+ 
     border: none;
     position:absolute;
     top: 0;
@@ -299,7 +305,9 @@ li {
     
    
   }
-   
+
+
+
   .Favoriten {
     
       background-color: rgba(185, 245, 94, 0.471);
@@ -340,11 +348,3 @@ position: relative;
    justify-content: space-around;
   }
 
-  .created-questions {
-    
-
-  }
-
-  .Bookmarks {
-   
-  }
