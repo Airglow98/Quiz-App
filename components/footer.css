@@ -1,5 +1,79 @@
+
+.footer-ul {
+    display: flex;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+.footer-ul__symbol {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.footer-ul__symbol .footer-ul__home-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(185, 245, 94);
+
+}
+
+.footer-ul__symbol .footer-ul__bookmarks-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(185, 245, 94, 0.471);
+
+}
+
+.footer-ul__symbol .footer-ul__profile-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(148, 240, 11, 0.136);
+
+}
+
+.Home {
+  background-color: rgb(185, 245, 94);
+    border: none;
+  }
+
+  .Favoriten {
+    
+      background-color: rgba(138, 186, 65, 0.471);
+      border: none;
+  }
+
+  .Profil {
+     
+      background-color: rgba(102, 162, 12, 0.136);
+      border: none;
+  }
+
+  .nav {
+    color: rgb(162, 238, 172);
+    border-top:  inset 5px #277b07;
+    background-color: #278b3d;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
 footer button:hover {
-    box-shadow: 5px 5px 5px 5px #000000;
-    background-color: rgb(3, 82, 15);
-    transition: 0,9s; /*?*/
+  box-shadow: none;
+  cursor: pointer;
 }

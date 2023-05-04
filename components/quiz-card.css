@@ -177,6 +177,15 @@
     
 }
 
+.quiz-card__not-bookmarked {
+  
+}
+
+.quiz-card__bookmarked {
+    fill: red;
+  
+}
+
 
   
 

@@ -43,7 +43,7 @@ li {
 
 }
 
-button:hover {
+body button:hover {
     box-shadow: 5px 5px 5px 5px #000000;
 }
 
