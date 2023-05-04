@@ -9,24 +9,20 @@
   </head>
 
   <body class="profil-body">
-    <h1>Quizzen mit Wizzen</h1>
-    <br /><br /><br /><br /><br /><br />
-    <form action="Name">
+    <h1 class="header">Quizzen mit Wizzen</h1>
+
+    <form action="Name" class="label-name">
       <label for="name"></label
-      ><input
-        type="text"
-        id="name"
-        name="name"
-        placeholder="Max Mustermann"
-        class="label-name"
-      />
+      ><input type="text" id="name" name="name" placeholder="Max Mustermann" />
+    </form>
+
+    <form action="Name" class="label-bio">
       <label for="biografie"></label>
       <input
         type="text"
         id="biografie"
         name="biografie"
         placeholder="Ich fahre gern Fahrrad und spiele Quiz"
-        class="label-biografie"
       />
     </form>
 
@@ -34,7 +30,15 @@
       <button class="created-questions">Created Questions</button>
       <button class="Bookmarks">Bookmarks</button>
     </div>
+
+    <p>Settings</p>
+    <p>Dark Mode</p>
+    <label class="switch">
+      <input type="checkbox" />
+      <span class="slider round"></span>
+    </label>
   </body>
+
   <footer class="nav" aria-labelledby="navigation">
     <ul class="footer-ul">
       <li class="footer-ul__symbol">
@@ -54,7 +58,11 @@
       </li>
       <li class="footer-ul__symbol">
         <a href="bookmarks.html" class="footer-ul__bookmarks-link"
-          ><button class="Favoriten" aria-label="Favoritenbutton"  data-js="favouritebutton">
+          ><button
+            class="Favoriten"
+            aria-label="Favoritenbutton"
+            data-js="favouritebutton"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"

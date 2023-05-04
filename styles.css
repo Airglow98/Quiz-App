@@ -1,8 +1,24 @@
 @import "./global.css";
 
+@import "./components/header.css";
 @import "./components/quiz-card.css";
 @import "./components/quiz-card-headers.css";
 @import "./components/footer.css";
 
 
+.profil-body {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  gap: 20px;
+}
 
+.label-name {
+  grid-column-start: 8;
+  grid-row-start: 4;
+}
+
+.label-bio {
+  grid-column-start: 6;
+  grid-row-start: 6;
+}
