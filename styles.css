@@ -6,19 +6,51 @@
 @import "./components/footer.css";
 
 
-.profil-body {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(20, 1fr);
-  gap: 20px;
+.darkmode {
+    background-color: #1d1d1d;
+    color: rgb(10, 10, 10);
 }
 
-.label-name {
-  grid-column-start: 8;
-  grid-row-start: 4;
+.profile-body {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 2%;
+    
 }
 
-.label-bio {
-  grid-column-start: 6;
-  grid-row-start: 6;
+.created-questions {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 10;
+}
+
+.Bookmarks{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 9;
+    grid-row-end: 10;
+}
+
+.Settings{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 11;
+    grid-row-end: 12;
+    }
+
+.darkmode__button {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 12;
+    grid-row-end: 13;
+}
+
+
+.Darkmode__text {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 12;
+    grid-row-end: 13;
 }

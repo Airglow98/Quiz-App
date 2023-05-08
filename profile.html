@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-js="htmlGoesDark">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>Quizzen-mit-Wizzen</title>
+    <script src="./index.js" defer></script>
   </head>
 
-  <body class="profil-body">
+  <body class="profile-body" data-js="bodyGoesDark">
     <h1 class="header">Quizzen mit Wizzen</h1>
 
     <form action="Name" class="label-name">
@@ -26,17 +27,12 @@
       />
     </form>
 
-    <div class="buttons-info">
-      <button class="created-questions">Created Questions</button>
-      <button class="Bookmarks">Bookmarks</button>
-    </div>
+    <button class="created-questions">Created Questions</button>
+    <button class="Bookmarks">Bookmarks</button>
 
-    <p>Settings</p>
-    <p>Dark Mode</p>
-    <label class="switch">
-      <input type="checkbox" />
-      <span class="slider round"></span>
-    </label>
+    <h2 class="Settings">Settings</h2>
+    <p class="Darkmode__text">Dark Mode:</p>
+    <button class="darkmode__button" data-js="darkModeButton">Darkmode</button>
   </body>
 
   <footer class="nav" aria-labelledby="navigation">

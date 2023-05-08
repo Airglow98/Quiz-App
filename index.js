@@ -1,6 +1,23 @@
 const favouriteButton = document.querySelector('[data-js="favouritebutton"]');
-const test = document.querySelector('[data-js="svg"]');
+const svg = document.querySelector('[data-js="svg"]');
 
 favouriteButton.addEventListener ("click", () => {
-    test.classList.toggle("quiz-card__bookmarked");
+    svg.classList.toggle("quiz-card__bookmarked");
+});
+
+
+const answerButton = document.querySelector('[data-js="answerButton"]');
+const hiddenAnswer = document.querySelector('[data-js="hiddenAnswer"]');
+
+answerButton.addEventListener ("click", () => {
+    hiddenAnswer.classList.toggle("not-hidden__answer");
+});
+
+const darkModeButton = document.querySelector('[data-js="darkModeButton"]');
+const htmlGoesDark = document.querySelector('[data-js="htmlGoesDark"]');
+
+console.log(darkModeButton)
+
+darkModeButton.addEventListener ("click", () => {
+    htmlGoesDark.classList.toggle("darkmode");
 });

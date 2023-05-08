@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-js="htmlGoesDark">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,7 +9,7 @@
     <script src="./index.js" defer></script>
   </head>
 
-  <body>
+  <body class="body" data-js="bodyGoesDark">
     <h1 class="header">Quizzen mit Wizzen</h1>
 
     <h2 class="Musik-h2">Musikfragen</h2>
@@ -17,7 +17,7 @@
     <section class="Musikfragen">
       <div class="music-card">
         <p>Wie viele Alben verkaufte die Band Queen bisher? (Stand 2023)</p>
-        <p hidden>200 Millionen</p>
+        <p class="hidden__answer" data-js="hiddenAnswer">200 Millionen</p>
         <button
           class="quiz-card__favourite-button"
           aria-label="Favoritenbutton"
@@ -37,7 +37,9 @@
             />
           </svg>
         </button>
-        <button class="quiz-card__answerbutton">Show Answer</button>
+        <button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__musik-tag">Musik</li>
         </ul>
@@ -45,7 +47,9 @@
 
       <div class="music-card">
         <p>Wie heißt Lady Gaga mit bürgerlichem Namen?</p>
-        <p hidden>Stefanie Germanotta</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">
+          Stefanie Germanotta
+        </p>
         <button
           class="quiz-card__favourite-button"
           aria-label="Favoritenbutton"
@@ -63,7 +67,9 @@
             />
           </svg>
         </button>
-        <button class="quiz-card__answerbutton">Show Answer</button>
+        <button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__musik-tag">Musik</li>
         </ul>
@@ -71,7 +77,9 @@
 
       <div class="music-card">
         <p>Welcher Künsler ist gemeint, wen es um den "King of Pop" geht?</p>
-        <p hidden>Michael Jackson</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">
+          Michael Jackson
+        </p>
         <button
           class="quiz-card__favourite-button"
           aria-label="Favoritenbutton"
@@ -88,7 +96,9 @@
           3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
 
         <ul class="quiz-card__tag">
           <li class="quiz-card__musik-tag">Musik</li>
@@ -101,7 +111,7 @@
     <section class="Geschichtsfragen">
       <div class="history-card">
         <p>Von wann bis wann war der erste Weltkrieg?</p>
-        <p hidden>1914-1918</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">1914-1918</p>
         <button
           class="quiz-card__favourite-button"
           aria-label="Favoritenbutton"
@@ -118,7 +128,9 @@
           3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__history-tag">Geschichte</li>
         </ul>
@@ -126,7 +138,7 @@
 
       <div class="history-card">
         <p>In welchem Jahr war der Mauerfall?</p>
-        <p hidden>1989</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">1989</p>
         <button
           class="quiz-card__favourite-button"
           aria-label="Favoritenbutton"
@@ -143,7 +155,9 @@
           3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__history-tag">Geschichte</li>
         </ul>
@@ -151,7 +165,9 @@
 
       <div class="history-card">
         <p>In welchem Jahrhundert starb Julius Cäsar?</p>
-        <p hidden>Im ersten Jahrhundert vor Christus (44v. Chr.)</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">
+          Im ersten Jahrhundert vor Christus (44v. Chr.)
+        </p>
         <button
           class="quiz-card__favourite-button"
           aria-label="Favoritenbutton"
@@ -168,7 +184,9 @@
  3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__history-tag">Geschichte</li>
         </ul>
@@ -179,7 +197,7 @@
           Wie viele Menschen tragen ,laut neuester Forschung, Gene von Dschingis
           Khan in sich? ( Stand 2022)
         </p>
-        <p hidden>16 Millionen</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">16 Millionen</p>
         <button class="quiz-card__favourite-button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -192,7 +210,9 @@
           3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__history-tag">Geschichte</li>
         </ul>
@@ -204,7 +224,7 @@
     <section class="Geografiefragen">
       <div class="geography-card">
         <p>Wie heißt die Landeshauptstadt von Baden-Württemberg?</p>
-        <p hidden>Stuttgart</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">Stuttgart</p>
         <button
           class="quiz-card__favourite-button"
           aria-label="Favoritenbutton"
@@ -221,7 +241,9 @@
           3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__geography-tag">Geografie</li>
         </ul>
@@ -229,7 +251,7 @@
 
       <div class="geography-card">
         <p>Wie viele Länder hat Südamerika?</p>
-        <p hidden>13</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">13</p>
         <button
           class="quiz-card__favourite-button"
           aria-label="Favoritenbutton"
@@ -246,7 +268,9 @@
  3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__geography-tag">Geografie</li>
         </ul>
@@ -261,7 +285,7 @@
           Welcher Künstler hat im Oktober 2021 seinen bürgerlichen Namen zu Ye
           ändern lassen?
         </p>
-        <p hidden>Kanye West</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">Kanye West</p>
         <button
           class="quiz-card__favourite-button"
           aria-label="Favoritenbutton"
@@ -278,14 +302,16 @@
           3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__gossip-tag">Klatsch</li>
         </ul>
       </div>
       <div class="gossip-card">
         <p>Wie viele Kinder hat Dieter Bohlen?</p>
-        <p hidden>6</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">6</p>
         <button
           class="quiz-card__favourite-button"
           aria-label="Favoritenbutton"
@@ -302,7 +328,9 @@
           3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__gossip-tag">Klatsch</li>
         </ul>
@@ -314,7 +342,7 @@
     <section class="Zufallsfragen">
       <div class="random-card">
         <p>In welchem Jahr erschien Fortnite Battle Royal?</p>
-        <p hidden>2017</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">2017</p>
         <button class="quiz-card__favourite-button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -327,7 +355,9 @@
           3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__random-tag">Zufall</li>
         </ul>
@@ -337,7 +367,7 @@
           Welche Farbe hat der Fleck, welche Grizzlys auf der Brust haben
           können?
         </p>
-        <p hidden>Weiß</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">Weiß</p>
         <button class="quiz-card__favourite-button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -350,14 +380,16 @@
           3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__random-tag">Zufall</li>
         </ul>
       </div>
       <div class="random-card">
         <p>Was ist Ouagadougou?</p>
-        <p hidden>Eine Stadt</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">Eine Stadt</p>
         <button class="quiz-card__favourite-button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -370,14 +402,16 @@
           3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__random-tag">Zufall</li>
         </ul>
       </div>
       <div class="random-card">
         <p>Wie viele Vornamen hat Picasso?</p>
-        <p hidden>7</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">7</p>
         <button class="quiz-card__favourite-button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -390,14 +424,16 @@
           3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__random-tag">Zufall</li>
         </ul>
       </div>
       <div class="random-card">
         <p>Was ist die Quersumme aus 123.456.789?</p>
-        <p hidden>32</p>
+        <p hiddenclass="hidden__answer" data-js="hiddenAnswer">32</p>
         <button class="quiz-card__favourite-button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -410,7 +446,9 @@
           3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__random-tag">Zufall</li>
         </ul>
@@ -421,7 +459,9 @@
     <section class="Biologiefragen">
       <div class="biology-card">
         <p>Woran erkennt man wie alt ein Pferd ist?</p>
-        <p hidden>An den Zähnen</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">
+          An den Zähnen
+        </p>
         <button class="quiz-card__favourite-button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -434,7 +474,9 @@
  3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
             />
           </svg></button
-        ><button class="quiz-card__answerbutton">Show Answer</button>
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
         <ul class="quiz-card__tag">
           <li class="quiz-card__biology-tag">Biologie</li>
         </ul>

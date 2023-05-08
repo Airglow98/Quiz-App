@@ -16,7 +16,7 @@
     position:absolute;
     top: 0;
     right: 0;
-
+    transform: translate(54%, -45%);
 }
 
 
@@ -46,7 +46,7 @@
     position: absolute;
     top: 0;
     right: 0;
-  
+    transform: translate(54%, -45%);
 }
 
 .quiz-card__history-tag {
@@ -72,7 +72,7 @@
     position:absolute;
     top: 0;
     right: 0;
-
+    transform: translate(54%, -45%);
 }
 
 .quiz-card__geography-tag {
@@ -100,7 +100,7 @@
     position:absolute;
     top: 0;
     right: 0;
- 
+    transform: translate(54%, -45%);
 }
 
 .quiz-card__gossip-tag {
@@ -127,7 +127,7 @@
     position:absolute;
     top: 0;
     right: 0;
-  
+    transform: translate(54%, -45%);
 }
 
 
@@ -143,7 +143,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5% 10%;
+    margin: 5% 10% 25% 10%;
     padding-top: 2%;
     position: relative;
     
@@ -156,6 +156,8 @@
         position:absolute;
         top: 0;
         right: 0;
+        transform: translate(54%, -45%);
+       
       
     }
 
@@ -177,15 +179,19 @@
     
 }
 
-.quiz-card__not-bookmarked {
-  
-}
 
 .quiz-card__bookmarked {
     fill: rgb(39, 139, 61);
   
 }
 
+.hidden__answer {
+    display: none;
+}
+
+.not-hidden__answer  {
+    display: block;
+}
 
   
 
