@@ -7,7 +7,7 @@
     <title>Form</title>
     <link rel="stylesheet" href="styles.css" />
     <title>Quizzen-mit-Wizzen</title>
-    <script src="./index.js" defer></script>
+    <script src="./form.js" defer></script>
   </head>
 
   <body>
@@ -15,7 +15,7 @@
     <form action="" class="form" data-js="form">
       <ul class="form-ul">
         <li>
-          <label for="yourquestion-textarea"></label>
+          <label for="yourquestion-textarea">Your Question:</label>
           <textarea
             name="yourquestion-textarea"
             id="yourquestion-textarea"
@@ -30,7 +30,7 @@
         </li>
 
         <li>
-          <label for="youranswer-textarea"></label>
+          <label for="youranswer-textarea">Your Answer: </label>
           <textarea
             name="youranswer-textarea"
             id="youranswer-textarea"
@@ -44,7 +44,7 @@
           ></textarea>
         </li>
         <li>
-          <label for="tag"></label>
+          <label for="tag">Tag:</label>
           <input
             type="text"
             name="tag"
@@ -56,7 +56,13 @@
           />
         </li>
         <li>
-          <button data-js="form-submitbutton">Submit</button>
+          <button
+            class="form-submitbutton"
+            type="submit"
+            data-js="form-submitbutton"
+          >
+            Submit
+          </button>
         </li>
       </ul>
     </form>
