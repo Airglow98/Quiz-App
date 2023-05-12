@@ -6,18 +6,28 @@ favouriteButton.addEventListener ("click", () => {
 });
 
 
+
+
 const answerButton = document.querySelector('[data-js="answerButton"]');
 const hiddenAnswer = document.querySelector('[data-js="hiddenAnswer"]');
 
 answerButton.addEventListener ("click", () => {
+    if (answerButton.textContent === "Show Answer")
+    {answerButton.textContent = "Hide Answer"; }
+    else  {answerButton.textContent = "Show Answer"; };
     hiddenAnswer.classList.toggle("not-hidden__answer");
+    console.log(answerButton.textContent)
 });
+
+
+
 
 const darkModeButton = document.querySelector('[data-js="darkModeButton"]');
 const htmlGoesDark = document.querySelector('[data-js="htmlGoesDark"]');
 
 console.log(darkModeButton)
 
-darkModeButton.addEventListener ("click", () => {
+/* darkModeButton.addEventListener ("click", () => {
     htmlGoesDark.classList.toggle("darkmode");
 });
+ */
