@@ -1,166 +1,540 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+<html lang="en" data-js="htmlGoesDark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Quizzen-mit-Wizzen</title>
-   
-  
-</head>
+    <script src="./index.js" defer></script>
+  </head>
 
-<body>
+  <body class="body" data-js="bodyGoesDark">
+    <h1 class="header">Quizzen mit Wizzen</h1>
 
-    <h1>Quizzen mit Wizzen</h1>
+    <h2 class="Musik-h2">Musikfragen</h2>
 
-   <h2 class="Musik-h2">Musikfragen</h2>
+    <section class="Musikfragen">
+      <div class="music-card">
+        <p>Wie viele Alben verkaufte die Band Queen bisher? (Stand 2023)</p>
+        <p class="hidden__answer" data-js="hiddenAnswer">200 Millionen</p>
+        <button
+          class="quiz-card__favourite-button"
+          aria-label="Favoritenbutton"
+          data-js="favouritebutton"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+            data-js="svg"
+            class="quiz-card__not-bookmarked"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg>
+        </button>
+        <button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__musik-tag">Musik</li>
+        </ul>
+      </div>
 
-   <section class="Musikfragen">
+      <div class="music-card">
+        <p>Wie heißt Lady Gaga mit bürgerlichem Namen?</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">
+          Stefanie Germanotta
+        </p>
+        <button
+          class="quiz-card__favourite-button"
+          aria-label="Favoritenbutton"
+          data-js="favouritebutton"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg>
+        </button>
+        <button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__musik-tag">Musik</li>
+        </ul>
+      </div>
 
-    <div class="Musikfrage">
+      <div class="music-card">
+        <p>Welcher Künsler ist gemeint, wen es um den "King of Pop" geht?</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">
+          Michael Jackson
+        </p>
+        <button
+          class="quiz-card__favourite-button"
+          aria-label="Favoritenbutton"
+          data-js="favouritebutton"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
 
-    <p>Wie viele Alben verkaufte die Band Queen bisher? (2023) <p hidden>200 Millionen</p><button class="Add-Favoriten"><img src="images/Favourites.png"></button></button><button class="Musikbutton">Show Answer</button></p>
-    <ul>
-        <li class="musik-tag">Musik</li>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__musik-tag">Musik</li>
+        </ul>
+      </div>
+    </section>
+
+    <h2 class="Geschichte-h2">Geschichtsfragen</h2>
+
+    <section class="Geschichtsfragen">
+      <div class="history-card">
+        <p>Von wann bis wann war der erste Weltkrieg?</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">1914-1918</p>
+        <button
+          class="quiz-card__favourite-button"
+          aria-label="Favoritenbutton"
+          data-js="favouritebutton"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__history-tag">Geschichte</li>
+        </ul>
+      </div>
+
+      <div class="history-card">
+        <p>In welchem Jahr war der Mauerfall?</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">1989</p>
+        <button
+          class="quiz-card__favourite-button"
+          aria-label="Favoritenbutton"
+          data-js="favouritebutton"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__history-tag">Geschichte</li>
+        </ul>
+      </div>
+
+      <div class="history-card">
+        <p>In welchem Jahrhundert starb Julius Cäsar?</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">
+          Im ersten Jahrhundert vor Christus (44v. Chr.)
+        </p>
+        <button
+          class="quiz-card__favourite-button"
+          aria-label="Favoritenbutton"
+          data-js="favouritebutton"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+ 3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__history-tag">Geschichte</li>
+        </ul>
+      </div>
+
+      <div class="history-card">
+        <p>
+          Wie viele Menschen tragen ,laut neuester Forschung, Gene von Dschingis
+          Khan in sich? ( Stand 2022)
+        </p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">16 Millionen</p>
+        <button class="quiz-card__favourite-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__history-tag">Geschichte</li>
+        </ul>
+      </div>
+    </section>
+
+    <h2 class="Geografie-h2">Geografiefragen</h2>
+
+    <section class="Geografiefragen">
+      <div class="geography-card">
+        <p>Wie heißt die Landeshauptstadt von Baden-Württemberg?</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">Stuttgart</p>
+        <button
+          class="quiz-card__favourite-button"
+          aria-label="Favoritenbutton"
+          data-js="favouritebutton"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__geography-tag">Geografie</li>
+        </ul>
+      </div>
+
+      <div class="geography-card">
+        <p>Wie viele Länder hat Südamerika?</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">13</p>
+        <button
+          class="quiz-card__favourite-button"
+          aria-label="Favoritenbutton"
+          data-js="favouritebutton"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+ 3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__geography-tag">Geografie</li>
+        </ul>
+      </div>
+    </section>
+
+    <h2 class="Klatsch-h2">Klatschfragen</h2>
+
+    <section class="Klatschfragen">
+      <div class="gossip-card">
+        <p>
+          Welcher Künstler hat im Oktober 2021 seinen bürgerlichen Namen zu Ye
+          ändern lassen?
+        </p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">Kanye West</p>
+        <button
+          class="quiz-card__favourite-button"
+          aria-label="Favoritenbutton"
+          data-js="favouritebutton"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__gossip-tag">Klatsch</li>
+        </ul>
+      </div>
+      <div class="gossip-card">
+        <p>Wie viele Kinder hat Dieter Bohlen?</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">6</p>
+        <button
+          class="quiz-card__favourite-button"
+          aria-label="Favoritenbutton"
+          data-js="favouritebutton"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__gossip-tag">Klatsch</li>
+        </ul>
+      </div>
+    </section>
+
+    <h2 class="Zufall-h2">Zufallsfragen</h2>
+
+    <section class="Zufallsfragen">
+      <div class="random-card">
+        <p>In welchem Jahr erschien Fortnite Battle Royal?</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">2017</p>
+        <button class="quiz-card__favourite-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__random-tag">Zufall</li>
+        </ul>
+      </div>
+      <div class="random-card">
+        <p>
+          Welche Farbe hat der Fleck, welche Grizzlys auf der Brust haben
+          können?
+        </p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">Weiß</p>
+        <button class="quiz-card__favourite-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__random-tag">Zufall</li>
+        </ul>
+      </div>
+      <div class="random-card">
+        <p>Was ist Ouagadougou?</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">Eine Stadt</p>
+        <button class="quiz-card__favourite-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__random-tag">Zufall</li>
+        </ul>
+      </div>
+      <div class="random-card">
+        <p>Wie viele Vornamen hat Picasso?</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">7</p>
+        <button class="quiz-card__favourite-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__random-tag">Zufall</li>
+        </ul>
+      </div>
+      <div class="random-card">
+        <p>Was ist die Quersumme aus 123.456.789?</p>
+        <p hiddenclass="hidden__answer" data-js="hiddenAnswer">32</p>
+        <button class="quiz-card__favourite-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+          3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__random-tag">Zufall</li>
+        </ul>
+      </div>
+    </section>
+
+    <h2 class="Bio-h2">Biologiefragen</h2>
+    <section class="Biologiefragen">
+      <div class="biology-card">
+        <p>Woran erkennt man wie alt ein Pferd ist?</p>
+        <p hidden class="hidden__answer" data-js="hiddenAnswer">
+          An den Zähnen
+        </p>
+        <button class="quiz-card__favourite-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="3em"
+            width="3em"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09
+ 3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"
+            />
+          </svg></button
+        ><button class="quiz-card__answerbutton" data-js="answerButton">
+          Show Answer
+        </button>
+        <ul class="quiz-card__tag">
+          <li class="quiz-card__biology-tag">Biologie</li>
+        </ul>
+      </div>
+    </section>
+  </body>
+
+  <footer class="nav" aria-labelledby="navigation">
+    <ul class="footer-ul">
+      <li class="footer-ul__symbol">
+        <a href="index.html" class="footer-ul__home-link"
+          ><button class="Home" aria-label="Homebutton">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              height="3em"
+              width="3em"
+            >
+              <path
+                d="M19.07 4.93C17.22 3 14.66 1.96 12 2c-2.66-.04-5.21 1-7.06 2.93C3 6.78 1.96 9.34 2 12c-.04 2.66 1 5.21 2.93 7.06C6.78 21 9.34 22.04 12 22c2.66.04 5.21-1 7.06-2.93C21 17.22 22.04 14.66 22 12c.04-2.66-1-5.22-2.93-7.07M17 12v6h-3.5v-5h-3v5H7v-6H5l7-7 7.5 7H17Z"
+              />
+            </svg></button
+        ></a>
+      </li>
+      <li class="footer-ul__symbol">
+        <a href="bookmarks.html" class="footer-ul__bookmarks-link"
+          ><button
+            class="Favoriten"
+            aria-label="Favoritenbutton"
+            data-js="favouritebutton"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              height="3em"
+              width="3em"
+            >
+              <path
+                d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m7 14 .72-.66C15.3 14 17 12.46 17 10.57c0-1.54-1.21-2.75-2.75-2.75-.87 0-1.7.41-2.25 1.05a3.007 3.007 0 0 0-2.25-1.05C8.21 7.82 7 9.03 7 10.57c0 1.89 1.7 3.43 4.28 5.77L12 17Z"
+              />
+            </svg></button
+        ></a>
+      </li>
+      <li class="footer-ul__symbol">
+        <a href="profile.html" class="footer-ul__profile-link"
+          ><button class="Profil" aria-label="Profilbutton">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              height="3em"
+              width="3em"
+            >
+              <path
+                d="M11.5,14C15.64,14 19,15.57 19,17.5V20H4V17.5C4,15.57 7.36,14 11.5,14M18,17.5C18,16.12 15.09,15 11.5,15C7.91,15 5,16.12 5,17.5V19H18V17.5M11.5,5C13.43,5 15,6.57 15,8.5C15,10.43 13.43,12 11.5,12C9.57,12 8,10.43 8,8.5C8,6.57 9.57,5 11.5,5M11.5,6C10.12,6 9,7.12 9,8.5C9,9.88 10.12,11 11.5,11C12.88,11 14,9.88 14,8.5C14,7.12 12.88,6 11.5,6Z"
+              />
+            </svg></button
+        ></a>
+      </li>
     </ul>
-</div> 
-
-<div class="Musikfrage">
-   <p>Wie heißt Lady Gaga mit bürgerlichem Namen? <p hidden>Stefanie Germanotta</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Musikbutton">Show Answer</button></p>
-   <ul>
-    <li class="musik-tag">Musik</li>
-</ul>
-</div>
-   
-   <div class="Musikfrage">
-    <p >Welcher Künsler ist gemeint, wen es um den "King of Pop" geht? <p hidden>Michael Jackson</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Musikbutton">Show Answer</button> </p>
-    <ul>
-        <li class="musik-tag">Musik</li>
-    </ul>
-   </div>
-</section> 
-
-   <h2 class="Geschichte-h2">Geschichtsfragen</h2>
-
-<section class="Geschichtsfragen">
-
-    <div class="Geschichtsfrage">
-    <p>Von wann bis wann war der erste Weltkrieg? <p hidden>1914-1918</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Geschichtsbutton">Show Answer</button> </p>
-    <ul>
-        <li class="geschichte-tag">Geschichte</li>
-    </ul>
-</div> 
-
-      <div class="Geschichtsfrage">
-    <p>In welchem Jahr war der Mauerfall? <p hidden>1989</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Geschichtsbutton">Show Answer</button></p>
-    <ul>
-        <li class="geschichte-tag">Geschichte</li>
-    </ul>
-</div>
-
-      <div class="Geschichtsfrage">
-    <p >In welchem Jahrhundert starb Julius Cäsar? <p hidden>Im ersten Jahrhundert vor Christus (44v. Chr.)</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Geschichtsbutton">Show Answer</button></p>
-    <ul>
-        <li class="geschichte-tag">Geschichte</li>
-    </ul>
-</div>
-
-      <div class="Geschichtsfrage">
-    <p>Wie viele Menschen targen ,laut neuester Forschung, Gene von Sschingis Khan in sich? (2022) <p hidden>16 Millionen</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Geschichtsbutton">Show Answer</button></p>
-    <ul>
-        <li class="geschichte-tag">Geschichte</li>
-    </ul>
-</div>
-
-</section>
-
-<h2 class="Geografie-h2">Geografiefragen</h2>
-
-<section class="Geografiefragen">
-
-    <div class="Geografiefrage">
-    <p>Wie heißt die Landeshauptstadt von Baden-Württemberg? <p hidden>Stuttgart</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Geografiebutton">Show Answer</button></p>
-    <ul>
-        <li class="geografie-tag">Geografie</li>
-    </ul>
-</div>
-
-    <div class="Geografiefrage">
-    <p>Wie viele Länder hat Südamerika? <p hidden>13</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Geografiebutton">Show Answer</button></p>
-    <ul>
-        <li class="geografie-tag">Geografie</li>
-    </ul>
-</div>
-</section>
-
-<h2 class="Klatsch-h2">Klatschfragen</h2>
-
-<section class="Klatschfragen">
-    <div class="Klatschfrage">
-    <p>Welcher Künstler hat im Oktober 2021 seinen bürgerlichen Namen zu Ye ändern lassen? <p hidden>Kanye West</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Klatschbutton">Show Answer</button></p>
-    <ul>
-        <li class="klatsch-tag">Klatsch</li>
-    </ul>
-</div>
-    <div class="Klatschfrage">
-    <p>Wie viele Kinder hat Dieter Bohlen? <p hidden>6</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Klatschbutton">Show Answer</button></p>
-    <ul>
-        <li class="klatsch-tag">Klatsch</li>
-    </ul>
-</div>
-</section>
-
-<h2 class="Zufall-h2">Zufallsfragen</h2>
-
-<section class="Zufallsfragen">
-     <div class="Zufallfrage">
-    <p>In welchem Jahr erschien Fortnite Battle Royal? <p hidden>2017</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Zufallsbutton">Show Answer</button></p>
-    <ul>
-        <li class="zufalls-tag">Zufall</li>
-    </ul>
-</div>
-     <div class="Zufallfrage">
-    <p>Welche Farbe hat der Fleck, welche Grizzlys auf der Brust haben können? <p hidden>Weiß</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Zufallsbutton">Show Answer</button></button></p>
-    <ul>
-        <li class="zufalls-tag">Zufall</li>
-    </ul>
-</div> 
-   <div class="Zufallfrage">
-   <p>Was ist Ouagadougou? <p hidden>Eine Stadt</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Zufallsbutton">Show Answer</button></p>
-   <ul>
-    <li class="zufalls-tag">Zufall</li>
-</ul>
-</div> 
-   <div class="Zufallfrage">
-   <p>Wie viele Vornamen hat Picasso? <p hidden>7</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Zufallsbutton">Show Answer</button></p>
-   <ul>
-    <li class="zufalls-tag">Zufall</li>
-</ul>
-</div> 
-   <div class="Zufallfrage">
-   <p> Was ist die Quersumme aus 123.456.789? <p hidden>32</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Zufallsbutton">Show Answer</button></p>
-   <ul>
-    <li class="zufalls-tag">Zufall</li>
-</ul>
-</div>
-</section>
-
-<h2 class="Bio-h2">Biologiefragen</h2>
-<section class="Biologiefragen">
-    <div class="Biologiefrage">
- <p> Woran erkennt man wie alt ein Pferd ist? <p hidden>An den Zähnen</p><button class="Add-Favoriten"><img src="images/Favourites.png"><button class="Biologiebutton">Show Answer</button></p>
- <ul>
-    <li class="biologie-tag">Biologie</li>
-</ul>
-</div>
-</section>
-
-
-</body>
-
-<footer class="nav" aria-labelledby="navigation"> 
-   <button class="Home" aria-label="Homebutton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="3em" width="3em"><path d="M19.07 4.93C17.22 3 14.66 1.96 12 2c-2.66-.04-5.21 1-7.06 2.93C3 6.78 1.96 9.34 2 12c-.04 2.66 1 5.21 2.93 7.06C6.78 21 9.34 22.04 12 22c2.66.04 5.21-1 7.06-2.93C21 17.22 22.04 14.66 22 12c.04-2.66-1-5.22-2.93-7.07M17 12v6h-3.5v-5h-3v5H7v-6H5l7-7 7.5 7H17Z"/></svg></button><a href="bookmarks.html"><button class="Favoriten" aria-label="Favoritenbutton">
-    <img src="images/Favourites.png"></button></a><button class="Profil" aria-label="Profilbutton"><img src="images/Profil.png"></button>
-</footer>
+  </footer>
 </html>

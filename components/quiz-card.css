@@ -1,0 +1,197 @@
+.music-card {
+    border: groove 4px rgb(148, 145, 10);
+    background-color:rgb(252, 230, 108);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 10%;
+    padding-top: 2%;
+    position: relative;
+   
+}
+
+.music-card  .quiz-card__favourite-button {
+    background-color: transparent;
+    border: none;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform: translate(54%, -45%);
+}
+
+
+.quiz-card__musik-tag {
+    background-color: rgb(242, 239, 174);
+  margin: 5px;
+
+}
+
+
+.history-card {
+    border: groove 4px rgb(27, 158, 125);
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 10%;
+    padding-top: 2%;
+    position: relative;
+   
+}
+
+
+.history-card  .quiz-card__favourite-button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(54%, -45%);
+}
+
+.quiz-card__history-tag {
+    background-color: rgb(165, 245, 220);
+  
+}
+
+.geography-card {
+    border: groove 4px rgb(196, 115, 39);
+    background-color: rgb(242, 176, 106);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 10%;
+    padding-top: 2%;
+    position: relative;
+   
+}
+
+.geography-card  .quiz-card__favourite-button {
+    background-color: transparent;
+    border: none;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform: translate(54%, -45%);
+}
+
+.quiz-card__geography-tag {
+    background-color: rgb(240, 217, 157);
+  
+}
+
+
+.gossip-card {
+    border: groove 4px rgb(199, 28, 205);
+    background-color:  rgb(246, 159, 237);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 10%;
+    padding-top: 2%;
+    position: relative;
+   
+}
+
+
+.gossip-card  .quiz-card__favourite-button {
+    background-color: transparent;
+    border: none;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform: translate(54%, -45%);
+}
+
+.quiz-card__gossip-tag {
+    background-color: rgb(238, 184, 240);
+  
+}
+
+
+.random-card {
+    border: groove 4px rgb(210, 18, 30);
+    background-color:  rgb(249, 136, 149);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 10%;
+    padding-top: 2%;
+    position: relative;
+   
+}
+
+.random-card .quiz-card__favourite-button{
+    background-color: transparent;
+    border: none;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform: translate(54%, -45%);
+}
+
+
+.quiz-card__random-tag {
+    background-color: rgb(247, 175, 175);
+  
+}
+
+
+.biology-card {
+    border: groove 4px rgb(36, 137, 36);
+    background-color: rgb(133, 240, 133);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 10% 25% 10%;
+    padding-top: 2%;
+    position: relative;
+    
+    
+    }
+
+    .biology-card  .quiz-card__favourite-button {
+        background-color: transparent;
+        border: none;
+        position:absolute;
+        top: 0;
+        right: 0;
+        transform: translate(54%, -45%);
+       
+      
+    }
+
+.quiz-card__biology-tag {
+    background-color: rgb(209, 240, 184);
+  
+}
+
+
+.quiz-card__tag {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 5%;
+}
+
+.quiz-card__answerbutton {
+    margin: 15px;
+    
+}
+
+
+.quiz-card__bookmarked {
+    fill: rgb(39, 139, 61);
+  
+}
+
+.hidden__answer {
+    display: none;
+}
+
+.not-hidden__answer  {
+    display: block;
+}
+
+  
+
