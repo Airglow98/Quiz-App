@@ -11,7 +11,7 @@
     color: rgb(10, 10, 10);
 }
 
-.profile-body {
+/* .profile-body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(16, 1fr);
@@ -53,4 +53,19 @@
     grid-column-end: 4;
     grid-row-start: 12;
     grid-row-end: 13;
+} */
+
+.form-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 10% 0;
+    margin: 0;
+    
+} 
+
+.form-textarea {
+    resize: none;
 }

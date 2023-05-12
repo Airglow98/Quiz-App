@@ -20,13 +20,6 @@ ul {
     
 }
 
-li {
-    border: 2px solid ;
-    border-radius: 20%;
-    padding: 2px 5px;
-
-}
-
 body button:hover {
     box-shadow: 5px 5px 5px 5px #000000;
 }

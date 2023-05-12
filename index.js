@@ -11,13 +11,29 @@ favouriteButton.addEventListener ("click", () => {
 const answerButton = document.querySelector('[data-js="answerButton"]');
 const hiddenAnswer = document.querySelector('[data-js="hiddenAnswer"]');
 
-answerButton.addEventListener ("click", () => {
-    if (answerButton.textContent === "Show Answer")
+answerButton.addEventListener("click", () => {
+    if (answerButton.innerText === "Show Answer")
     {answerButton.textContent = "Hide Answer"; }
     else  {answerButton.textContent = "Show Answer"; };
     hiddenAnswer.classList.toggle("not-hidden__answer");
-    console.log(answerButton.textContent)
+
 });
+
+
+const formElement = document.querySelector('[data-js="form"]')
+/* const formSubmitButton = document.querySelector('[data-js="form-submitbutton"]') */
+
+formElement.addEventListener("submit", (event) => {
+event.preventDefault();
+console.log("test");
+});
+
+
+
+
+
+
+
 
 
 

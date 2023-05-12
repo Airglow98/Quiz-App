@@ -1,38 +1,65 @@
 <!DOCTYPE html>
-<html lang="en" data-js="htmlGoesDark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
     <link rel="stylesheet" href="styles.css" />
-    <title>Profile</title>
+    <title>Quizzen-mit-Wizzen</title>
     <script src="./index.js" defer></script>
   </head>
 
-  <body class="profile-body" data-js="bodyGoesDark">
+  <body>
     <h1 class="header">Quizzen mit Wizzen</h1>
+    <form action="" class="form" data-js="form">
+      <ul class="form-ul">
+        <li>
+          <label for="yourquestion-textarea"></label>
+          <textarea
+            name="yourquestion-textarea"
+            id="yourquestion-textarea"
+            cols="30"
+            rows="10"
+            placeholder="Wie viele Primärfarben gibt es?"
+            minlength="10"
+            maxlength="100"
+            class="form-textarea"
+            required
+          ></textarea>
+        </li>
 
-    <form action="Name" class="label-name">
-      <label for="name"></label
-      ><input type="text" id="name" name="name" placeholder="Max Mustermann" />
+        <li>
+          <label for="youranswer-textarea"></label>
+          <textarea
+            name="youranswer-textarea"
+            id="youranswer-textarea"
+            cols="30"
+            rows="10"
+            placeholder="Drei"
+            minlength="2"
+            maxlength="50"
+            class="form-textarea"
+            required
+          ></textarea>
+        </li>
+        <li>
+          <label for="tag"></label>
+          <input
+            type="text"
+            name="tag"
+            id="tag"
+            placeholder="Kunst"
+            minlength="2"
+            maxlength="15"
+            required
+          />
+        </li>
+        <li>
+          <button data-js="form-submitbutton">Submit</button>
+        </li>
+      </ul>
     </form>
-
-    <form action="Name" class="label-bio">
-      <label for="biografie"></label>
-      <input
-        type="text"
-        id="biografie"
-        name="biografie"
-        placeholder="Ich fahre gern Fahrrad und spiele Quiz"
-      />
-    </form>
-
-    <button class="created-questions">Created Questions</button>
-    <button class="Bookmarks">Bookmarks</button>
-
-    <h2 class="Settings">Settings</h2>
-    <p class="Darkmode__text">Dark Mode:</p>
-    <button class="darkmode__button" data-js="darkModeButton">Darkmode</button>
   </body>
 
   <footer class="nav" aria-labelledby="navigation">
