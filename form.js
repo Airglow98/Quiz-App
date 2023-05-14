@@ -7,7 +7,7 @@ formElement.addEventListener("submit", (event) => {
     const data = Object.fromEntries(formData);
     const questionTextInput= data.yourQuestionTextarea;
     const answerTextInput = data.yourAnswerTextarea;
-    const tag= data.tag;
+    const tag = data.tag;
 
     event.target.reset();
 
