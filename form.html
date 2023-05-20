@@ -12,39 +12,42 @@
 
   <body>
     <h1 class="header">Quizzen mit Wizzen</h1>
-    <form action="" class="form" data-js="form">
+    <form action="" data-js="form">
       <ul class="form-ul">
         <li>
-          <label for="yourquestion-textarea">Your Question:</label>
+          <p>Your Question:</p>
+          <label for="yourQuestionTextarea"></label>
           <textarea
-            name="yourquestion-textarea"
-            id="yourquestion-textarea"
+            name="yourQuestionTextarea"
+            id="yourQuestionTextarea"
             cols="30"
             rows="10"
             placeholder="Wie viele Primärfarben gibt es?"
             minlength="10"
-            maxlength="100"
+            maxlength="150"
             class="form-textarea"
             required
           ></textarea>
         </li>
 
         <li>
-          <label for="youranswer-textarea">Your Answer: </label>
+          <p>Your Answer:</p>
+          <label for="youraÀnswerTextarea"></label>
           <textarea
-            name="youranswer-textarea"
-            id="youranswer-textarea"
+            name="yourAnswerTextarea"
+            id="yourAnswerTextarea"
             cols="30"
             rows="10"
             placeholder="Drei"
             minlength="2"
-            maxlength="50"
+            maxlength="150"
             class="form-textarea"
             required
           ></textarea>
         </li>
         <li>
-          <label for="tag">Tag:</label>
+          <p>Tag:</p>
+          <label for="tag"></label>
           <input
             type="text"
             name="tag"

@@ -4,6 +4,7 @@
    width: 100%;
    margin: 0;
    padding: 0;
+   z-index: 2;
 }
 
 .footer-ul__symbol {
@@ -87,6 +88,7 @@ border: none;
     width: 100%;
     position: fixed;
     bottom: 0;
+    z-index: 3;
 }
 
 footer button:hover {
