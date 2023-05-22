@@ -1,8 +1,8 @@
 @import "./global.css";
 
 @import "./components/header.css";
-@import "./components/quiz-card.css";
-@import "./components/quiz-card-headers.css";
+@import "./components/Quizcard/quiz-card.css";
+@import "./components/Quizcard/quiz-card-headers.css";
 @import "./components/footer.css";
 
 
@@ -11,49 +11,6 @@
     color: rgb(10, 10, 10);
 }
 
-/* .profile-body {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(16, 1fr);
-    gap: 2%;
-    
-}
-
-.created-questions {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 9;
-    grid-row-end: 10;
-}
-
-.Bookmarks{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 9;
-    grid-row-end: 10;
-}
-
-.Settings{
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 11;
-    grid-row-end: 12;
-    }
-
-.darkmode__button {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 12;
-    grid-row-end: 13;
-}
-
-
-.Darkmode__text {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 12;
-    grid-row-end: 13;
-} */
 
 .form-ul {
     display: flex;

@@ -1,3 +1,3 @@
-import Quizcards from "./js/Quizcards.js";
+import Quizcards from "./components/Quizcard/Quizcard.js";
 
   Quizcards();
