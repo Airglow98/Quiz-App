@@ -2,7 +2,8 @@
 const quizCards = document.querySelectorAll('[data-js="quizCard"]');
 
 
-export default quizCards.forEach(quizCard => {
+export default function Quizcards (){
+quizCards.forEach(quizCard => {
     const answerButton = quizCard.querySelector('[data-js="answerButton"]');
     const hiddenAnswer = quizCard.querySelector('[data-js="hiddenAnswer"]');
     const favouriteButton = quizCard.querySelector('[data-js="favouritebutton"]');
@@ -22,3 +23,4 @@ export default quizCards.forEach(quizCard => {
    
     });
     });
+  };
